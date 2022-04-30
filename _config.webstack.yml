@@ -1,5 +1,5 @@
 favicon: /images/favicon.ico
-banner: /images/webstack_banner_cn.png
+banner: /images/logo.png
 
 logo:
   expanded: /images/logo.png
@@ -28,14 +28,17 @@ githubCorner: '<a href="https://github.com/YidaozhanYa" class="github-corner" ar
 
 expandAll: false
 menu:
+  - name: 子站点
+    icon: fa-solid fa-blog
+    config: website
   - name: 我的项目
     icon: far fa-star
     submenu:
       - name: 模拟器相关
         icon: fas fa-gamepad
         config: emulator
-      - name: 其它
-        icon: fas fa-tools
+      - name: 其它项目
+        icon: fa-brands fa-github-alt
         config: others
 
 emulator:
@@ -55,7 +58,6 @@ emulator:
     url: https://github.com/YidaozhanYa/ActionsMirror
     img: http://imgsrc.baidu.com/super/pic/item/730e0cf3d7ca7bcb96e093f9fb096b63f724a849.jpg
     description: 基于阿里云盘的 NS 模拟器自动同步
-
 
 others:
   - name: SMMWE 关卡管理器
@@ -82,6 +84,48 @@ others:
     url: https://github.com/YidaozhanYa/4J_Tools
     img: https://www.helloimg.com/images/2022/02/27/GVEqxM.png
     description: SM4J PC 版辅助工具
+
+website:
+  - name: 个人网盘 (v1)
+    url: https://pan.yidaozhan.ga
+    img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fis1-ssl.mzstatic.com%2Fimage%2Fthumb%2FPurple124%2Fv4%2Fd4%2F90%2F70%2Fd49070e4-fdac-bec1-3a6d-4fbeb3f6b567%2FAppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png%2F1024x1024bb.jpeg&refer=http%3A%2F%2Fis1-ssl.mzstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653902876&t=4e42ba8c503c0b0e06b5b499e49fd2f2
+    description: 基于 OneManager
+  - name: 个人网盘 (v2)
+    url: https://file.yidaozhan.ga
+    img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fis1-ssl.mzstatic.com%2Fimage%2Fthumb%2FPurple124%2Fv4%2Fd4%2F90%2F70%2Fd49070e4-fdac-bec1-3a6d-4fbeb3f6b567%2FAppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png%2F1024x1024bb.jpeg&refer=http%3A%2F%2Fis1-ssl.mzstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653902876&t=4e42ba8c503c0b0e06b5b499e49fd2f2
+    description: 基于 Alist
+  - name: 喝了盘
+    url: https://hel.smbx.world
+    img: https://smbx.world/assets/favicon-vwaewqtg.png
+    description: 免费在线文件共享
+  - name: SMBX 地图仓库
+    url: https://smbx.world/d/54-smbx
+    img: https://www.helloimg.com/images/2022/02/27/GVEqxM.png
+    description: 可能是国内最全的 SMBX 玩家自制地图收集
+  - name: NS 模拟器下载镜像 1
+    url: https://nsemuhelper.herokuapp.com
+    img: http://imgsrc.baidu.com/super/pic/item/730e0cf3d7ca7bcb96e093f9fb096b63f724a849.jpg
+    description: NS 模拟器自动同步 (Heroku)
+  - name: NS 模拟器下载镜像 2
+    url: http://azure.yidaozhan.ga:5678
+    img: http://imgsrc.baidu.com/super/pic/item/730e0cf3d7ca7bcb96e093f9fb096b63f724a849.jpg
+    description: NS 模拟器自动同步 (Azure)
+  - name: NS 模拟器下载镜像 3
+    url: https://onemanager-nsemuhelper.yidaozhanyaqwq.repl.co
+    img: http://imgsrc.baidu.com/super/pic/item/730e0cf3d7ca7bcb96e093f9fb096b63f724a849.jpg
+    description: NS 模拟器自动同步 (Replit)
+  - name: NS 模拟器下载镜像 4
+    url: https://pan.yidaozhan.ga/ns_emu_helper
+    img: http://imgsrc.baidu.com/super/pic/item/730e0cf3d7ca7bcb96e093f9fb096b63f724a849.jpg
+    description: NS 模拟器自动同步 (Vercel)
+  - name: 短网址
+    url: https://ydz1.gq/
+    img: https://www.helloimg.com/images/2022/04/30/R2Hfko.jpg
+    description: ydz1.gq 短网址
+  - name: GitHub 文件加速
+    url: https://gh.yidaozhan.ga/
+    img: https://www.helloimg.com/images/2022/04/30/R2HVxK.png
+    description: 搭建于 CloudFlare
 
 about:
   url: https://blog.yidaozhan.ga
@@ -136,7 +180,7 @@ css:
   hclonely: /css/hclonely.css
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
   linecons: /css/fonts/linecons/css/linecons.min.css
-  fontawesome: //cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.min.css
+  fontawesome: //cdn.bootcdn.net/ajax/libs/font-awesome/6.1.1/css/all.min.css
   bootstrap: //cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css
   xenonCore: /css/xenon-core.min.css
   xenonComponents: /css/xenon-components.min.css
