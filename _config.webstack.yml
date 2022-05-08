@@ -61,7 +61,7 @@ emulator:
 
 others:
   - name: SMMWE 关卡管理器
-    url: https://github.com/SMMWECloud/SMMWECloudLevelManager
+    url: https://github.com/YidaozhanYa/SMMWELevelManager
     img: https://avatars.githubusercontent.com/u/93830093?s=200&v=4
     description: 管理 SMM:WE 的关卡
   - name: 生草机
